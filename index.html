@@ -9,7 +9,7 @@
 <body>
 
   <header>
-    <h1>✨ Rotina da [Nome] ✨</h1>
+    <h1>Rotina da [Nome]</h1>
     <p>Foco • Estudo • Brilho</p>
   </header>
 
@@ -17,7 +17,7 @@
     <a href="#manha">Manhã</a>
     <a href="#tarde">Tarde</a>
     <a href="#noite">Noite</a>
-    <a href="#quadro">Quadro</a>
+    <a href="#planilha">Planilha</a>
   </nav>
 
   <main>
@@ -58,28 +58,42 @@
       </ul>
     </section>
 
-    <section id="quadro">
-      <h2>✅ Quadro de Controle</h2>
-      <p class="dica">Clique nas células pra marcar. Fica salvo no navegador.</p>
-      <div class="tabela-wrap">
-        <table id="quadro-tabela">
+    <section id="planilha">
+      <h2>✨ Planilha de Controle</h2>
+      <p class="dica">Clique nas células para marcar como feito. Fica salvo no navegador.</p>
+      <div class="planilha-wrap">
+        <table id="planilha">
           <thead>
             <tr>
-              <th>Dia</th><th>Acordou</th><th>Cama</th><th>Lição</th><th>Ajudou</th><th>Dormiu</th>
+              <th class="canto">Tarefa</th>
+              <th>Seg</th><th>Ter</th><th>Qua</th><th>Qui</th><th>Sex</th><th>Sáb</th><th>Dom</th>
             </tr>
           </thead>
           <tbody>
-            <tr><td>Seg</td><td></td><td></td><td></td><td></td><td></td></tr>
-            <tr><td>Ter</td><td></td><td></td><td></td><td></td><td></td></tr>
-            <tr><td>Qua</td><td></td><td></td><td></td><td></td><td></td></tr>
-            <tr><td>Qui</td><td></td><td></td><td></td><td></td><td></td></tr>
-            <tr><td>Sex</td><td></td><td></td><td></td><td></td><td></td></tr>
-            <tr><td>Sáb</td><td></td><td></td><td></td><td></td><td></td></tr>
-            <tr><td>Dom</td><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr>
+              <td class="tarefa">Acordar no horário</td>
+              <td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+            </tr>
+            <tr>
+              <td class="tarefa">Arrumar a cama</td>
+              <td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+            </tr>
+            <tr>
+              <td class="tarefa">Fazer a lição</td>
+              <td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+            </tr>
+            <tr>
+              <td class="tarefa">Ajudar em casa</td>
+              <td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+            </tr>
+            <tr>
+              <td class="tarefa">Dormir no horário</td>
+              <td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+            </tr>
           </tbody>
         </table>
       </div>
-      <button id="limpar">Limpar quadro</button>
+      <button id="limpar">Limpar planilha</button>
     </section>
 
   </main>
@@ -90,4 +104,4 @@
 
   <script src="script.js"></script>
 </body>
-                                  </html>
+</html>
